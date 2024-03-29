@@ -6,6 +6,8 @@ import useTransactions from '../../useTransactions'
 
 import useStyles from './styles'
 
+import { ArcElement } from 'chart.js';
+import Chart from 'chart.js/auto';
 
 const Details = ({title}) => {
     const classes = useStyles();
